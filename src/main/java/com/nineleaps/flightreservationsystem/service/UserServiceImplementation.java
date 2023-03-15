@@ -50,11 +50,6 @@ public class UserServiceImplementation implements IUserService {
     }
 
     @Override
-    public void bookFlight(Long id) {
-
-    }
-
-    @Override
     public List<User> viewAllUsers() {
         return userRepository.findAll();
     }

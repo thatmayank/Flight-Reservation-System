@@ -8,15 +8,13 @@ import java.util.List;
 
 public interface IUserService {
 
-    public User addUserDetails(User newUser);
+    public User addUserDetails(User newUser); //Registeration
 
     public User updateUserDetails(User updateUser, Long id);
 
     public List<Flight> searchFlights(String source, String destination);
 
     public FlightStatus checkAvailability(Long id);//flight id
-
-    public void bookFlight(Long id);//flight id
 
     public List<User> viewAllUsers();
 
